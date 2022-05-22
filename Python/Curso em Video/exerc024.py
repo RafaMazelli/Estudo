@@ -1,0 +1,7 @@
+cidade = input('\33[37;1mDigite o nome da cidade: ')
+cidade = cidade.strip()
+cidade_upper = cidade.upper()
+cidade_lista = cidade_upper.split()
+print('¬'*80)
+print('\33[33mA cidade começa com o nome Santos? \33[34m(true:verdade)\33[31m(False:falso)\33[36m')
+print('SANTO' in cidade_lista[0])

@@ -29,7 +29,8 @@ for i in range(10):
     sleep(0.5)
 
 sleep(1)
-
+print('Lista vazia? -> ', teste.vazio())
+sleep(1)
 print('Agora repare que o último item (o numero 9) a entrar na pilha será o primeiro a sair.')
 sleep(4)
 
@@ -39,5 +40,7 @@ for count in range(9, 0, -1):
     sleep(0.5)
 
 print('Saída <-', teste.dados)
+teste.remover()
+sleep(1)
 print('Lista vazia? -> ', teste.vazio())
-sleep(5)
+sleep(3)

@@ -25,7 +25,7 @@ sleep(2)
 
 for i in range(10):
     teste.inserir(i)
-    print(teste.dados)
+    print('Entrada ->', teste.dados)
     sleep(0.5)
 
 sleep(1)
@@ -34,10 +34,10 @@ print('Agora repare que o último item (o numero 9) a entrar na pilha será o pr
 sleep(4)
 
 for count in range(9, 0, -1):
-    print(teste.dados)
+    print('Saída <-', teste.dados)
     teste.remover()
     sleep(0.5)
 
-print(teste.dados)
+print('Saída <-', teste.dados)
 print('Lista vazia? -> ', teste.vazio())
 sleep(5)

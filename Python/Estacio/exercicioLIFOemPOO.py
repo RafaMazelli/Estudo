@@ -18,7 +18,7 @@ class Lifo: # class that will be used to make a LIFO array
 
 teste = Lifo() # creating an array object
 
-#From now on is all the same as the last exercise: LIFO with arrays. Not gona write all over again. sorry :/
+#From now on is all the same as the last exercise: LIFO with arrays. Not gonna write all over again. sorry :/
 
 print('Lista vazia? -> ', teste.vazio())
 sleep(2)

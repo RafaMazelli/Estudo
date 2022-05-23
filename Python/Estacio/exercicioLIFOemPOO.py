@@ -13,15 +13,23 @@ class Lifo: # class that will be used to make a LIFO array
     def remover(self): # the removing method
         self.dados.pop(0) # also using a removing method to make another removing method
 
+    def vazio(self):
+        return len(self.dados) == 0
+
 teste = Lifo() # creating an array object
 
 #From now on is all the same as the last exercise: LIFO with arrays. Not gona write all over again. sorry :/
+
+print('Lista vazia? -> ', teste.vazio())
+sleep(2)
+
 for i in range(10):
     teste.inserir(i)
     print(teste.dados)
     sleep(0.5)
 
 sleep(1)
+
 print('Agora repare que o último item (o numero 9) a entrar na pilha será o primeiro a sair.')
 sleep(4)
 
@@ -31,3 +39,5 @@ for count in range(9, 0, -1):
     sleep(0.5)
 
 print(teste.dados)
+print('Lista vazia? -> ', teste.vazio())
+sleep(5)

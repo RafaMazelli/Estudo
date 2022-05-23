@@ -11,7 +11,7 @@ for count in range(10): #making a counting loop
     sleep(0.5) #taking a breath xD
 
 sleep(1) 
-print ('Agora perceba que o ultimo item será o primeiro a sair.')
+print ('Agora repare que o último item (o numero 9) a entrar na pilha será o primeiro a sair..')
 sleep(2)
 
 for count in range(9, 0, -1): #Making a reverse counting loop

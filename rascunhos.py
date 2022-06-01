@@ -1,5 +1,5 @@
 # vou utilizar aqui para fazer rascunhos como ja spoilei pelo nome do arquivo né hehehe
-# im gonna use this file just as sketch(dont know a better word than sketch. thx google translate:) )
+# im gonna use this file just as sketch (dont know a better word than sketch. thx google translate:) )
 
 import datetime
 import calendar

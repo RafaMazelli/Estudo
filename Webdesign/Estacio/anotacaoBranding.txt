@@ -1,0 +1,37 @@
+------ Resumo feito por mim da aula sobre branding ------
+
+BRANDING PARA WEB DESIGN E PROJETOS EM GERAL
+
+O branding (do ingles Resumo.. kkkkk sei la, so achei engraçado) vem com o intuito de ter um "resumo" do projeto para ter controle principalmente do tempo. Coisa rara hoje em dia hehehe.. 
+É extremamente necessário para manter a expectativa dos clientes de acordo com o esperado, manter o time de desenvolvimento cientes das prioridades, objetivos, gostos do cliente, público-alvo, personas (ajuda também) e detalhes da solução para o problema do cliente.
+
+Por mais que haja templates prontos de perguntas(ótimo para fazer um rascunho do que será perguntado), o branding, muitas vezes varia de acordo com o tipo do cliente e, também, é necessário mais de uma reunião para que se consiga ter o "esboço" correto do problema.
+
+Muito importante pesquisar sobre o ramo, inclusive os concorrentes para que seja possível definir um diferencial de destaque para o projeto.
+
+Para a criação de um bom briefing é uma sugestão seguir a prática SMART:
+
+    S- specific: Ser especifico nos Objetivos; 
+    M- Measurable: que seja possível ser mensurável;
+    A- Achievable: Objetivos atingíveis. ex: conseguir algo dentro de um periodo de tempo especifico
+    R- Realistic: Tem que ser relevante tendo como base os objetivos do usuario e a estrategia do cliente
+    T- Timely: ter um tempo definido para realizar os objetivos
+
+Com os objetivos definidos agora é preciso criar um escopo e priorizar quais serão realizados primeiro.
+Existem algumas ferramentas e dentre elas a matriz GUT:
+
+    G- Gravity: é o quão grave ou impactante tal objetivo ou situação é. O quão grave se nao for cumprido.
+    U- Urgency: tempo disponível pra cumprir o objetivo
+    T- Tendency: se vai se agravar ou nao com o passar do tempo
+
+    Deve-se seguir uma escala de 5 pontos, de "muito baixo impacto" a "muito alto impacto", para cada ponto da matriz GUT e multiplica-los. A partir dos resultados se gera um rank de prioridade.
+
+Agora após definir as prioridades é definido os 'Requisitos' que é a documentação que vai descrever o que o usuario quer (requisito de usuario) e o que o sistema faz(requisitos de sistema). D
+
+    Os requisitos de softwares (que está dentro de requisitos de sistema) sao classificados como funcionais e nao funcionais:
+
+    os requisitos funcionais, ou RFs, descrevem o que o sistema fornece, como ele reage a entradas de dados especificas e como ele se comporta em determinadas situações. 
+
+    Os requisitos nao funcionais, ou RNF, são restrições aos serviços ou funções oferecidos pelo sistema. Os RNFs vao depender do tipo do projeto, cada um já tem RNFs genéricos identificados e conhecidos por geral. No caso da aula aqui que é um projeto de website os RNFs mais conhecidos sao: Usabilidade, funcionalidade, confiabilidade, eficiência, manutenção, segurança, disponibilidade, escalabilidade, simplicidade, consistência, robustez, apelo visual, compatibilidade.
+
+

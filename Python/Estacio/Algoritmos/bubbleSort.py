@@ -1,13 +1,15 @@
 #implementando o bubble sort em python
+#implementing bubble sort with python
 
+#well, i guess i dont have not much to say about this one. It just compares n-1  times the itens with his adjacent ones sorting in a crescent way
 import random
 
 def bubble_sort(lista):
-    tamanho_lista = len(lista)
-    for i in range(tamanho_lista):
+    tamanho_lista = len(lista) 
+    for i in range(tamanho_lista): #o conjunto de ambos os comandos for faz com que todos os itens sejam verificados n-1 vezes
         for j in range(tamanho_lista-1):
-            if lista[j] > lista[j + 1]:
-                lista[j], lista[j + 1] = lista[j + 1], lista[j]
+            if lista[j] > lista[j + 1]: # aqui é a condição que ira verificar se o item adjacente é maior
+                lista[j], lista[j + 1] = lista[j + 1], lista[j] #aqui ocorre a troca de lugar entre o item analisado e seu adjacente caso seja maior
 
 
 #-=-=-=-=-=-=-=TESTANDO O ALGORITMO=-=-=-=-=-=-=-

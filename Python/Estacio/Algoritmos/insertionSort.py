@@ -5,7 +5,6 @@ import random
 
 def insertion_sort(lista):
     tamanho_lista = len(lista) #pegando o tamanho da lista 
-    monitoramento = 1
     for i in range(1,tamanho_lista):
         item_analisado = lista[i] # variavel utilizada para armazenar o valor do numero analisado 
         indice_ordenados = i - 1 #indice que irá representar a porção ordenada a esquerda do numero analisado
@@ -13,8 +12,7 @@ def insertion_sort(lista):
             lista[indice_ordenados + 1] = lista[indice_ordenados] # Este comando chega o valor uma posição a direita dentro do vetor
             indice_ordenados -= 1 #decrementando o valor do indice para a esquerda em direção ao proximo item da porção ordenada
         lista[indice_ordenados + 1] = item_analisado #Aqui é onde o item analisado é inserido no seu devido lugar com o detalhe de que colocamos ele um indice a frente do ultimo numero analisado na porção dos já ordenados. 
-        monitoramento += 1
-        print(monitoramento, '-', lista)
+       
 
 #-=-=-=-=-=-=-=TESTANDO O ALGORITMO=-=-=-=-=-=-=-
 #-=-=-=-=-=-=-=TESTING THE ALGORITHM=-=-=-=-=-=-=-

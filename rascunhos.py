@@ -3,7 +3,9 @@
 
 teste = [1,2,3,4,5]
 
-print(teste)
 
-teste[3+1] = teste[3]
-print(teste) 
+t = len(teste)
+for i in range(t-1):
+    print(i)
+    print(teste[i])
+

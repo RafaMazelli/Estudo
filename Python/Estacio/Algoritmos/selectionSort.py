@@ -1,5 +1,6 @@
 #implementando insertion sort em python
 #implementing insertion sort with python
+#O selection sort elege o elemento de menor valor e o coloca na sua devida posição
 
 import random
 

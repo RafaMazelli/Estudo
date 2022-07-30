@@ -1,5 +1,5 @@
 import random
-from algoritmos_de_ordenacao import bubble_sort, insertion_sort, selection_sort, merge_sort, merge
+from algoritmos_de_ordenacao import bubble_sort, insertion_sort, selection_sort, merge_sort, merge, quick_sort, partition
 
 # -=-=-=-=-=-=-=TESTANDO O ALGORITMO=-=-=-=-=-=-=-
 # -=-=-=-=-=-=-=TESTING THE ALGORITHM=-=-=-=-=-=-=-
@@ -15,6 +15,6 @@ lista = repetidos
 print('=-' * 25)
 print(f'\33[1;31mLista >> {lista}\33[m')
 print('v-' * 25)
-merge_sort(lista)
+quick_sort(lista)
 print(f'\33[1;32mLista Ordenada >> {lista}\33[m')
 print('=-' * 25)

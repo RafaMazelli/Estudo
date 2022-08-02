@@ -36,10 +36,41 @@ def selection_sort(lista):
             lista[menor_indice] = aux
 
 def merge_sort(lista, inicio=0, fim=None):
-    pass
+    if fim is None:
+        fim = len(lista)
 
+    if (fim - inicio > 1):
+        meio = (inicio + fim) // 2
+        merge_sort(lista, inicio, meio)
+        merge_sort(lista, meio, fim)
+        merge(lista, inicio, meio, fim)
+
+def merge(lista, inicio, meio, fim):
+    esquerda = lista[inicio:meio]
+    direita = lista[meio:fim]
+    top_dir, top_esq = 0, 0
+
+    for i in range(inicio, fim):
+        if top_esq >= len(esquerda):
+            lista[i] = direita[top_dir]
+            top_dir += 1
+        
+        elif top_dir >= len(direita):
+            lista[i] = esquerda[top_esq]
+            top_esq += 1
+        
+        elif esquerda[top_esq] < direita[top_dir]:
+            lista[i] = esquerda[top_esq]
+            top_esq += 1
+
+        else:
+            lista[i] = direita[top_dir]
+            top_dir += 1
+
+def quick_sort(lista, inicio=0, fim=None):
+    pass
 
 print(teste)
 print('-' * 50)
-selection_sort(teste)
+merge_sort(teste)
 print(teste)

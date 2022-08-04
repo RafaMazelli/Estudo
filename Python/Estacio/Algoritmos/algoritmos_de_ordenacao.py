@@ -108,3 +108,6 @@ def partition(lista, inicio, fim):
             barra_menores += 1
     lista[barra_menores], lista[fim] = lista[fim], lista[barra_menores]
     return barra_menores
+
+def bucket_sort(lista):
+    pass

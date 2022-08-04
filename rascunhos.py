@@ -87,6 +87,8 @@ def partition(lista, inicio, fim):
     lista[barra_menores], lista[fim] = lista[fim], lista[barra_menores]
     return lista[barra_menores]
 
+def bucket_sort(lista):
+    pass
 print(teste)
 print('-' * 50)
 quick_sort(teste)

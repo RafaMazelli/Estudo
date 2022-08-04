@@ -87,7 +87,7 @@ def quick_sort(lista, inicio=0, fim=None):
     """
 
     if fim is None:
-        fim = len(lista) - 1
+        fim = len(lista) - 1 #just used this condition because in python we cannot use functions as parameters and the minus 1 is because we will use the "fim" variable as parameter in range function, otherwise it would catch the out of range index 
 
     if inicio < fim:
         p = partition(lista, inicio, fim)
@@ -100,8 +100,8 @@ def partition(lista, inicio, fim):
     The step of the quick sort algorithm that selects the pivot and switches the position of the itens.
 
     """
-    pivot = lista[fim]
-    barra_menores = inicio
+    pivot = lista[fim] 
+    barra_menores = inicio 
     for barra_maiores in range(inicio, fim):
         if lista[barra_maiores] <= pivot:
             lista[barra_maiores], lista[barra_menores] = lista[barra_menores], lista[barra_maiores]

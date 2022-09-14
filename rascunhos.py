@@ -23,7 +23,6 @@ def insertion_sort(lista):
             i -= 1
         lista[indice_ordenados + 1] = item_analisado
 
-
 def selection_sort(lista):
     tamanho_lista = len(lista)
     for i in range(tamanho_lista - 1):
@@ -91,5 +90,5 @@ def bucket_sort(lista):
     pass
 print(teste)
 print('-' * 50)
-quick_sort(teste)
+bubble_sort(teste)
 print(teste)

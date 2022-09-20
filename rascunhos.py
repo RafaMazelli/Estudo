@@ -1,6 +1,6 @@
 # vou utilizar aqui para fazer rascunhos como ja spoilei pelo nome do arquivo né hehehe
 # im gonna use this file just as sketch (dont know a better word than sketch. thx google translate:) )
-
+# testing git
 
 
 teste = [43, 2, 5, 44, 333, 6, 55, 44, 343, 23]

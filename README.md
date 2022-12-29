@@ -7,6 +7,7 @@ Bem, após um hiato de quase 7 semanas sem estar "codando", quis vir aqui apenas
 
 
 English only down bellow:
+
 So, this repository will have most part of my studying stuffs and coding languages that im learning!
 
 Yes, i was one of those who decide to go to college to learn more about programming! (Just to be clear about that sentence, i've heard a lot about the programming area that you don't need to go to college and stuff to be a programmer and despite that i decided to do it anyways). My relationship with the PCs started since i was a child (kinda weird saying that knowing how normal it is nowadays, but i'm 32 years old now. Just do the math.. and history xD). I went from user to hardware technician not just cause of my own curiosity about it, but also becouse of family business that pushed me to learn more and better about it. Well, now i am formally starting as a programmer and i noticed how it almost perfectly fits with my extremely creative personality and my critical and analytical sense.

@@ -2,15 +2,23 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args){
-        //TODO Auto-generated method sub
-        Scanner sc = new Scanner(System.in);
-        double media, nota1, nota2;
-        System.out.println("Digite a nota 1:");
-        nota1 = Double.parseDouble(sc.nextLine());
-        System.out.println("Digite a 2 nota:");
-        nota2 = Double.parseDouble(sc.nextLine());
-        media = (nota1 + nota2) / 2.0;
-        System.out.println("A sua media eh:" + media);
-        sc.close();
+        
+        sum(100, 2);
+        
+    }
+
+
+    static void sum(int x, int y){
+       
+        System.out.print("soma:");
+        System.out.println(x + y);
+        System.out.print("Subtração:");
+        System.out.println(x - y);
+        System.out.print("Multiplicação:");
+        System.out.println(x * y);
+        System.out.print("Divisão:");
+        System.out.println(x / y);
+
+
     }
 }

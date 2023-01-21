@@ -1,7 +1,9 @@
 import java.util.Scanner;
+import Operacoes.operadores;
 
 public class Calculator {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o primeiro numero:");
         String numero1 = scanner.nextLine();
@@ -14,32 +16,18 @@ public class Calculator {
         String operacao = scanner.nextLine();
 
         if(operacao.equals("1")){
-            sum(x, y);
+            operadores.sum(x, y);
         }else if(operacao.equals("2")){
-            minus(x, y);
+            operadores.minus(x, y);
         }else if(operacao.equals("3")){
-            plus(x, y);
+            operadores.plus(x, y);
         }else if(operacao.equals("4")){
-            divide(x, y);
+            operadores.divide(x, y);
         }else{
             System.out.println("Não existe a instrução: " + operacao);
         }
     }
 
-    static void sum(int x, int y){
-        System.out.println("O resultado foi: " + (x + y));
-    }
-
-    static void minus(int x, int y){
-        System.out.println("O resultado foi: " + (x - y));
-    }
     
-    static void plus(int x, int y){
-        System.out.println("O resultado foi: " + (x * y));
-    }
-
-    static void divide(int x, int y){
-        System.out.println("O resultado foi: " + (x / y));
-    }
 
 }

@@ -1,31 +1,33 @@
 public class POO {
     public static void main(String[] args) {
         //---------------Instanciando Objetos----------------------------
-        User usuario1 = new User();
-            usuario1.setFirstName("Grandoalto");
-            usuario1.setLastName("Silvandrelio");
-            usuario1.setPassword(123);
-            usuario1.setLogged(false);
+        User[] users = new User[10]; // Instanciando um array de Objetos
 
-        User usuario2 = new User();
-            usuario2.setFirstName("Pequenilda");
-            usuario2.setLastName("Cindy");
-            usuario2.setLogged(false);
-            usuario2.setPassword(1232);
-
+        for(int i=0; i < users.length; i++){ // Percorrendo o array  e definindo as propriedades concatenando um nome qualquer com o indice definido na variavel i
+            User actual = new User();
+            actual.setFirstName("Individois" + i);
+            actual.setLastName("Sobrenorme" + i);
+            actual.setLogged(false);
+            actual.setPassword(123 + i);
+            users[i] = actual;
+        }
 
 
 
         //---------------- Saída na Tela-----------------------------
 
+        for (int i = 0; i < 10; i++){ //percorrendo o array e imprimindo na tela seus objetos
+            System.out.println("Nome: " + users[i].getFirstName() + " " + users[i].getLastName() + " // senha: " + users[i].getPassword() + " // " + "logado: " + "\u001B[31m" + users[i].getLogged()+ "\u001B[0m"); // 1 Objeto instanciado
+            }
 
-        System.out.println("Nome: " + usuario1.getFirstName() + " " + usuario1.getLastName() + " // senha: " + usuario1.getPassword() + " // " + "logado: " + "\u001B[31m" + usuario1.getLogged()+ "\u001B[0m"); // 1 Objeto instanciado
+        
+        users[3].setLogged(true); // Mudando o estado do Objeto 1(user[3])
 
-        System.out.println("Nome: " + usuario2.getFirstName() + " " + usuario2.getLastName() + " // senha: " + usuario2.getPassword() + " Logado: " + "\u001B[31m" + usuario2.getLogged() + "\u001B[0m"); // 2 Objeto instanciado
-    
-        usuario1.setLogged(true); // Mudando o estado do Objeto 1(usuario1)
+        System.out.println("-------------------------------------------------------------------");
+        
+        for (int i = 0; i < 10; i++){ //reimprimindo os objetos do array para verificar a modificação feita do atributo islogged
+            System.out.println("Nome: " + users[i].getFirstName() + " " + users[i].getLastName() + " // senha: " + users[i].getPassword() + " // " + "logado: " + users[i].getLogged()); // reimprimindo para verificar na saida a mudanca da propriedade atraves do Setter
+            }
 
-        System.out.println("Nome: " + usuario1.getFirstName() + " " + usuario1.getLastName() + " // senha: " + usuario1.getPassword() +  " // logado: " + "\u001B[32m" + usuario1.getLogged() + "\u001B[0m");
-    
     }
 }

@@ -8,7 +8,7 @@ public class App {
 
         
         ComparandoStrings1(password, senha); // resultado esperado false
-        ComparandoStrings2(); // resultado esperado false
+        ComparandoStrings2(); // resultado esperado true
         ComparandoStrings3(password, senha); // resultado esperado true
     
     }

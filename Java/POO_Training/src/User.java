@@ -5,6 +5,16 @@ public class User {
     private String lastName; // definindo propriedade do molde do objeto
     private int password; // definindo propriedade do molde do objeto
 
+    //----------------------CONSTRUCTOR----------------------------------
+
+    public User(boolean isLogged, String firstName, String lastName, int password ){ // Construtor da classe User
+
+        this.isLogged = isLogged;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.password = password;
+    }
+
     //-----------------------SETTERS------------------------------------
     public void setLogged(boolean logged){ // definindo metodo setter
         isLogged = logged;

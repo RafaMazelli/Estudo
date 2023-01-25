@@ -1,18 +1,12 @@
 public class POO {
     public static void main(String[] args) {
         //---------------Instanciando Objetos----------------------------
-        User[] users = new User[10]; // Instanciando um array de Objetos
+        User[] users = new User[]{// Instanciando um array de Objetos
 
-        for(int i=0; i < users.length; i++){ // Percorrendo o array  e definindo as propriedades concatenando um nome qualquer com o indice definido na variavel i
-            User actual = new User();
-            actual.setFirstName("Individois" + i);
-            actual.setLastName("Sobrenorme" + i);
-            actual.setLogged(false);
-            actual.setPassword(123 + i);
-            users[i] = actual;
-        }
-
-
+            new User(false, "fulano1", "da silvano", 1234),
+            new User(false, "sicrano1", "da silcrano", 1234),
+            new User(false, "fulano2", "da silvano2", 1234)
+        }; 
 
         //---------------- Saída na Tela-----------------------------
 

@@ -11,7 +11,7 @@ public class App {
         sortArray(numbersB); //Same as previous sorting function
         System.out.println("Array 1 content: " + Arrays.toString(numbersA)); // just showing the content of the Array
         System.out.println("Array 2 content: " + Arrays.toString(numbersB));// just showing the content of the Array
-        comparingArray(numbersA, numbersB); //Using the funtion that i've created to compare 2 given arrays and print ture or false if their content is equal
+        comparingArray(numbersA, numbersB); //Using the function that i've created to compare 2 given arrays and print true or false if their content is equal
         comparingHashArray(numbersA, numbersB);// Using created function to compare hash arrays
         
     }
@@ -22,7 +22,7 @@ public class App {
         Arrays.sort(a);
         return a;
     }
-   public static void comparingHashArray(int[] a, int[] b){//funcion created to compare arrays
+   public static void comparingHashArray(int[] a, int[] b){//function created to compare arrays
 
     System.out.println("Hash 1º Array: " + a);
     System.out.println("Hash 2º Array: " + b);

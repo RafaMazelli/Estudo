@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class App {
-    
+
     public static int[] numbersA = new int[]{2, 5, 3, 4, 55, 76 ,4 ,1}; //Variable public declaration
     public static int[] numbersB = new int[]{2, 5, 3, 4, 55, 76 ,4 ,1}; //Variable public declaration
 
@@ -21,7 +21,7 @@ public class App {
         Arrays.sort(a);
         return a;
     }
-}
+}   public static void showingHashArray()
 
 
 

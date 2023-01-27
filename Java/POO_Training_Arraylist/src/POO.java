@@ -27,7 +27,7 @@ public class POO {
     //System.out.println(users.get(9).getFullName());
 
     //-----------------INSTANTIATING ANOTHER OBJECT----------------------
-    User user11 = new User(false,"sicrano " + i, "da silcrano " + i, 123);
+    User user11 = new User(false, "sicrano " + i, "da silcrano " + i, 123);
     users.add(user11);//Adding the new user to the arraylist named users
 
     //---------------------------PRINTING AGAIN---------------------------

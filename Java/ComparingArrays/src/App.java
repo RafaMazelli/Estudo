@@ -13,8 +13,8 @@ public class App {
         System.out.println("Array 2 content: " + Arrays.toString(numbersB));// just showing the content of the Array
         comparingArray(numbersA, numbersB); //Using the function that i've created to compare 2 given arrays and print true or false if their content is equal
         comparingHashArray(numbersA, numbersB);// Using created function to compare hash arrays
-        
     }
+    //----------------------------------METHODS----------------------------------------
     public static void comparingArray(int[] a, int[] b){ // function that i created to compare if the content of the arrays is the same
         System.out.println("Arrays with same content: " + Arrays.equals(a, b));
     }
@@ -22,7 +22,7 @@ public class App {
         Arrays.sort(a);
         return a;
     }
-   public static void comparingHashArray(int[] a, int[] b){//function created to compare arrays
+    public static void comparingHashArray(int[] a, int[] b){//function created to compare arrays
 
     System.out.println("Hash 1º Array: " + a);
     System.out.println("Hash 2º Array: " + b);

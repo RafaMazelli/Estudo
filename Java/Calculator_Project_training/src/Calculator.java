@@ -26,6 +26,7 @@ public class Calculator {
         }else{
             System.out.println("Não existe a instrução: " + operacao);
         }
+        scanner.close();
     }
 
     

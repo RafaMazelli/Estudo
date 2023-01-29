@@ -18,6 +18,7 @@ public class Megasena {
         }else{
             System.out.println("Programa finalizado!");
         }
+        scanner.close();
 
     }
 }

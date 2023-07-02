@@ -1,60 +1,22 @@
-import React from 'react';
- import { View, FlatList, StyleSheet, Text, StatusBar } from 'react-native';
+import * as React from 'react';
+ import { View, Text } from 'react-native';
+ import { NavigationContainer } from '@react-navigation/native';
+ import { createDrawerNavigator } from '@react-navigation/drawer';
  
- const DADOS = [
-     {
-     id: '1',
-     descricao: 'TV Led 49',
-     categoria_id: 1
-     },
-     {
-     id: '4',
-     descricao: 'Camisa Trilha',
-     categoria_id: 2
-     },
-     {
-     id: '4',
-     descricao: 'Qualquer semelhança é mera coincidência',
-     categoria_id: 3
-     },
- ];
+ import HomeScreen from './screens/home';
+ import AboutScreen from './screens/about';
  
- const Item = ({ descricao }) => (
-     <View style={styles.item}>
-     <Text style={styles.title}>{descricao}</Text>
-     </View>
- );
+ const Drawer = createDrawerNavigator();
  
- const App = () => {
-     const renderItem = ({ item }) => (
-     <Item descricao={item.descricao} />
-     );
- 
+ function App() {
      return (
-     <View style={styles.container}>
-         <FlatList
-         data={DADOS}
-         renderItem={renderItem}
-         keyExtractor={item => item.id}
-         />
-     </View>
+     <NavigationContainer>
+         <Drawer.Navigator initialRouteName='Home'>
+         <Drawer.Screen name='Home' component={HomeScreen} />
+         <Drawer.Screen name='About' component={AboutScreen} />
+         </Drawer.Navigator>
+     </NavigationContainer>
      );
  }
  
- const styles = StyleSheet.create({
-     container: {
-     flex: 1,
-     marginTop: StatusBar.currentHeight || 0,
-     },
-     item: {
-     backgroundColor: 'yellow',
-     padding: 20,
-     marginVertical: 8,
-     marginHorizontal: 16,
-     },
-     title: {
-     fontSize: 12,
-     },
- });
- 
- export default App; 
+ export default App;
